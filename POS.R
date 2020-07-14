@@ -31,7 +31,7 @@ any(is.na(Data$profit))
 
 Data$date <- as.character(Data$date)
 Data$date <- ymd(Data$date)
-Data$date <- format(Data$date, "%d-%m-%Y")
+#Data$date <- format(Data$date, "%d-%m-%Y")
 
 
 Jan <- filter(Data, date >= "2018-01-01" & date <= "2018-01-31")
